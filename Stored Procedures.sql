@@ -1,6 +1,6 @@
 /*
 
-Today's Topic: Stored Procedures
+Stored Procedures
 
 */
 
@@ -10,7 +10,7 @@ AS
 DROP TABLE IF EXISTS #temp_employee
 Create table #temp_employee (
 JobTitle varchar(100),
-EmployeesPerJob int ,
+EmployeesPerJob int,
 AvgAge int,
 AvgSalary int
 )
